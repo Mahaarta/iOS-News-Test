@@ -14,6 +14,11 @@
 		C73294302CE4946E00B51F91 /* iosTestMinataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732942F2CE4946E00B51F91 /* iosTestMinataTests.swift */; };
 		C732943A2CE4946E00B51F91 /* iosTestMinataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73294392CE4946E00B51F91 /* iosTestMinataUITests.swift */; };
 		C732943C2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732943B2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift */; };
+		C73294922CE497FC00B51F91 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73294912CE497FC00B51F91 /* NewsModel.swift */; };
+		C73294952CE4989A00B51F91 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73294942CE4989A00B51F91 /* NetworkManager.swift */; };
+		C73294972CE498C200B51F91 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73294962CE498C200B51F91 /* BaseResponse.swift */; };
+		C732949A2CE4990F00B51F91 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73294992CE4990F00B51F91 /* NewsService.swift */; };
+		C732949D2CE49BC700B51F91 /* DetailNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732949C2CE49BC700B51F91 /* DetailNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		C73294352CE4946E00B51F91 /* iosTestMinataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosTestMinataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73294392CE4946E00B51F91 /* iosTestMinataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosTestMinataUITests.swift; sourceTree = "<group>"; };
 		C732943B2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosTestMinataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C73294912CE497FC00B51F91 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		C73294942CE4989A00B51F91 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C73294962CE498C200B51F91 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		C73294992CE4990F00B51F91 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+		C732949C2CE49BC700B51F91 /* DetailNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,10 @@
 		C732941D2CE4946B00B51F91 /* iosTestMinata */ = {
 			isa = PBXGroup;
 			children = (
+				C732949B2CE49BC000B51F91 /* Screen */,
+				C73294982CE4990400B51F91 /* Service */,
+				C73294932CE4989000B51F91 /* Utilities */,
+				C732948A2CE4959600B51F91 /* Model */,
 				C732941E2CE4946B00B51F91 /* iosTestMinataApp.swift */,
 				C73294202CE4946B00B51F91 /* ContentView.swift */,
 				C73294222CE4946E00B51F91 /* Assets.xcassets */,
@@ -125,6 +139,39 @@
 				C732943B2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift */,
 			);
 			path = iosTestMinataUITests;
+			sourceTree = "<group>";
+		};
+		C732948A2CE4959600B51F91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C73294912CE497FC00B51F91 /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C73294932CE4989000B51F91 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C73294942CE4989A00B51F91 /* NetworkManager.swift */,
+				C73294962CE498C200B51F91 /* BaseResponse.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C73294982CE4990400B51F91 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C73294992CE4990F00B51F91 /* NewsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C732949B2CE49BC000B51F91 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C732949C2CE49BC700B51F91 /* DetailNews.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C732949A2CE4990F00B51F91 /* NewsService.swift in Sources */,
+				C73294972CE498C200B51F91 /* BaseResponse.swift in Sources */,
+				C73294952CE4989A00B51F91 /* NetworkManager.swift in Sources */,
+				C73294922CE497FC00B51F91 /* NewsModel.swift in Sources */,
+				C732949D2CE49BC700B51F91 /* DetailNews.swift in Sources */,
 				C73294212CE4946B00B51F91 /* ContentView.swift in Sources */,
 				C732941F2CE4946B00B51F91 /* iosTestMinataApp.swift in Sources */,
 			);
