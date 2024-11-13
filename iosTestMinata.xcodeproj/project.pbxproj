@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C732941F2CE4946B00B51F91 /* iosTestMinataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732941E2CE4946B00B51F91 /* iosTestMinataApp.swift */; };
+		C73294212CE4946B00B51F91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73294202CE4946B00B51F91 /* ContentView.swift */; };
+		C73294232CE4946E00B51F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73294222CE4946E00B51F91 /* Assets.xcassets */; };
+		C73294262CE4946E00B51F91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73294252CE4946E00B51F91 /* Preview Assets.xcassets */; };
+		C73294302CE4946E00B51F91 /* iosTestMinataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732942F2CE4946E00B51F91 /* iosTestMinataTests.swift */; };
+		C732943A2CE4946E00B51F91 /* iosTestMinataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73294392CE4946E00B51F91 /* iosTestMinataUITests.swift */; };
+		C732943C2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732943B2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C732942C2CE4946E00B51F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73294132CE4946B00B51F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C732941A2CE4946B00B51F91;
+			remoteInfo = iosTestMinata;
+		};
+		C73294362CE4946E00B51F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73294132CE4946B00B51F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C732941A2CE4946B00B51F91;
+			remoteInfo = iosTestMinata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C732941B2CE4946B00B51F91 /* iosTestMinata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTestMinata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C732941E2CE4946B00B51F91 /* iosTestMinataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosTestMinataApp.swift; sourceTree = "<group>"; };
+		C73294202CE4946B00B51F91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C73294222CE4946E00B51F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73294252CE4946E00B51F91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C732942B2CE4946E00B51F91 /* iosTestMinataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosTestMinataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C732942F2CE4946E00B51F91 /* iosTestMinataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosTestMinataTests.swift; sourceTree = "<group>"; };
+		C73294352CE4946E00B51F91 /* iosTestMinataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosTestMinataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73294392CE4946E00B51F91 /* iosTestMinataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosTestMinataUITests.swift; sourceTree = "<group>"; };
+		C732943B2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosTestMinataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73294182CE4946B00B51F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73294282CE4946E00B51F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73294322CE4946E00B51F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C73294122CE4946B00B51F91 = {
+			isa = PBXGroup;
+			children = (
+				C732941D2CE4946B00B51F91 /* iosTestMinata */,
+				C732942E2CE4946E00B51F91 /* iosTestMinataTests */,
+				C73294382CE4946E00B51F91 /* iosTestMinataUITests */,
+				C732941C2CE4946B00B51F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C732941C2CE4946B00B51F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C732941B2CE4946B00B51F91 /* iosTestMinata.app */,
+				C732942B2CE4946E00B51F91 /* iosTestMinataTests.xctest */,
+				C73294352CE4946E00B51F91 /* iosTestMinataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C732941D2CE4946B00B51F91 /* iosTestMinata */ = {
+			isa = PBXGroup;
+			children = (
+				C732941E2CE4946B00B51F91 /* iosTestMinataApp.swift */,
+				C73294202CE4946B00B51F91 /* ContentView.swift */,
+				C73294222CE4946E00B51F91 /* Assets.xcassets */,
+				C73294242CE4946E00B51F91 /* Preview Content */,
+			);
+			path = iosTestMinata;
+			sourceTree = "<group>";
+		};
+		C73294242CE4946E00B51F91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C73294252CE4946E00B51F91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C732942E2CE4946E00B51F91 /* iosTestMinataTests */ = {
+			isa = PBXGroup;
+			children = (
+				C732942F2CE4946E00B51F91 /* iosTestMinataTests.swift */,
+			);
+			path = iosTestMinataTests;
+			sourceTree = "<group>";
+		};
+		C73294382CE4946E00B51F91 /* iosTestMinataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C73294392CE4946E00B51F91 /* iosTestMinataUITests.swift */,
+				C732943B2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift */,
+			);
+			path = iosTestMinataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C732941A2CE4946B00B51F91 /* iosTestMinata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C732943F2CE4946E00B51F91 /* Build configuration list for PBXNativeTarget "iosTestMinata" */;
+			buildPhases = (
+				C73294172CE4946B00B51F91 /* Sources */,
+				C73294182CE4946B00B51F91 /* Frameworks */,
+				C73294192CE4946B00B51F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosTestMinata;
+			productName = iosTestMinata;
+			productReference = C732941B2CE4946B00B51F91 /* iosTestMinata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C732942A2CE4946E00B51F91 /* iosTestMinataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73294422CE4946E00B51F91 /* Build configuration list for PBXNativeTarget "iosTestMinataTests" */;
+			buildPhases = (
+				C73294272CE4946E00B51F91 /* Sources */,
+				C73294282CE4946E00B51F91 /* Frameworks */,
+				C73294292CE4946E00B51F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C732942D2CE4946E00B51F91 /* PBXTargetDependency */,
+			);
+			name = iosTestMinataTests;
+			productName = iosTestMinataTests;
+			productReference = C732942B2CE4946E00B51F91 /* iosTestMinataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C73294342CE4946E00B51F91 /* iosTestMinataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73294452CE4946E00B51F91 /* Build configuration list for PBXNativeTarget "iosTestMinataUITests" */;
+			buildPhases = (
+				C73294312CE4946E00B51F91 /* Sources */,
+				C73294322CE4946E00B51F91 /* Frameworks */,
+				C73294332CE4946E00B51F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73294372CE4946E00B51F91 /* PBXTargetDependency */,
+			);
+			name = iosTestMinataUITests;
+			productName = iosTestMinataUITests;
+			productReference = C73294352CE4946E00B51F91 /* iosTestMinataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73294132CE4946B00B51F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C732941A2CE4946B00B51F91 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C732942A2CE4946E00B51F91 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C732941A2CE4946B00B51F91;
+					};
+					C73294342CE4946E00B51F91 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C732941A2CE4946B00B51F91;
+					};
+				};
+			};
+			buildConfigurationList = C73294162CE4946B00B51F91 /* Build configuration list for PBXProject "iosTestMinata" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C73294122CE4946B00B51F91;
+			productRefGroup = C732941C2CE4946B00B51F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C732941A2CE4946B00B51F91 /* iosTestMinata */,
+				C732942A2CE4946E00B51F91 /* iosTestMinataTests */,
+				C73294342CE4946E00B51F91 /* iosTestMinataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73294192CE4946B00B51F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73294262CE4946E00B51F91 /* Preview Assets.xcassets in Resources */,
+				C73294232CE4946E00B51F91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73294292CE4946E00B51F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73294332CE4946E00B51F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C73294172CE4946B00B51F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73294212CE4946B00B51F91 /* ContentView.swift in Sources */,
+				C732941F2CE4946B00B51F91 /* iosTestMinataApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73294272CE4946E00B51F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73294302CE4946E00B51F91 /* iosTestMinataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73294312CE4946E00B51F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C732943C2CE4946E00B51F91 /* iosTestMinataUITestsLaunchTests.swift in Sources */,
+				C732943A2CE4946E00B51F91 /* iosTestMinataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C732942D2CE4946E00B51F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C732941A2CE4946B00B51F91 /* iosTestMinata */;
+			targetProxy = C732942C2CE4946E00B51F91 /* PBXContainerItemProxy */;
+		};
+		C73294372CE4946E00B51F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C732941A2CE4946B00B51F91 /* iosTestMinata */;
+			targetProxy = C73294362CE4946E00B51F91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C732943D2CE4946E00B51F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C732943E2CE4946E00B51F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C73294402CE4946E00B51F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iosTestMinata/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HGJV364P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minata.rewardz.test.iosTestMinata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C73294412CE4946E00B51F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iosTestMinata/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HGJV364P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minata.rewardz.test.iosTestMinata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C73294432CE4946E00B51F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HGJV364P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minata.rewardz.test.iosTestMinataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosTestMinata.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iosTestMinata";
+			};
+			name = Debug;
+		};
+		C73294442CE4946E00B51F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HGJV364P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minata.rewardz.test.iosTestMinataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosTestMinata.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iosTestMinata";
+			};
+			name = Release;
+		};
+		C73294462CE4946E00B51F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HGJV364P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minata.rewardz.test.iosTestMinataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iosTestMinata;
+			};
+			name = Debug;
+		};
+		C73294472CE4946E00B51F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HGJV364P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minata.rewardz.test.iosTestMinataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iosTestMinata;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C73294162CE4946B00B51F91 /* Build configuration list for PBXProject "iosTestMinata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C732943D2CE4946E00B51F91 /* Debug */,
+				C732943E2CE4946E00B51F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C732943F2CE4946E00B51F91 /* Build configuration list for PBXNativeTarget "iosTestMinata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73294402CE4946E00B51F91 /* Debug */,
+				C73294412CE4946E00B51F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73294422CE4946E00B51F91 /* Build configuration list for PBXNativeTarget "iosTestMinataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73294432CE4946E00B51F91 /* Debug */,
+				C73294442CE4946E00B51F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73294452CE4946E00B51F91 /* Build configuration list for PBXNativeTarget "iosTestMinataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73294462CE4946E00B51F91 /* Debug */,
+				C73294472CE4946E00B51F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C73294132CE4946B00B51F91 /* Project object */;
+}
